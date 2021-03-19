@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8114595008127986093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5240421247679425370}
+  - component: {fileID: 825522537254434205}
+  - component: {fileID: 3319307010368160929}
+  - component: {fileID: 5309087034177859248}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5240421247679425370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114595008127986093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &825522537254434205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114595008127986093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 
+  hasSpawned: 0
+--- !u!114 &3319307010368160929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114595008127986093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  localPositionSensitivity: 0.01
+  localRotationSensitivity: 0.01
+  localScaleSensitivity: 0.01
+--- !u!114 &5309087034177859248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114595008127986093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1c00ce6bb056a4e9633169c9422447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  Hand: {fileID: 3008682333121274648, guid: 9b4483ef3cc1b984daeb78e888058d4e, type: 3}
+  TableTop: {fileID: 8027342274223578337, guid: 30b3d26f602c7c5409673e205eae980a, type: 3}
+  EnemyHand: {fileID: 4052367049841069356, guid: 170050ee2ee7ae348a2baac74c05cbf0, type: 3}
+  defensiveCards:
+  - {fileID: 6683145727901943599, guid: 3234ca40e6202a849b5c34a55c23aa57, type: 3}
+  - {fileID: 9059380171086005745, guid: 77efd5d5f0485eb41b8a9d682cbf1739, type: 3}
+  - {fileID: 3377403656910826849, guid: c547c8801d3582a45b6f267d12cfb8da, type: 3}
+  - {fileID: 1766488652973651962, guid: 186b6d89329c112458f4fd2c55cb14d3, type: 3}
+  - {fileID: 5491342979699279304, guid: bc9ab7f0ab13ee44c9aeb876813fdb58, type: 3}
+  - {fileID: 3445916415400553864, guid: 1c2e454a3681c6d49b976093a17315ee, type: 3}
+  - {fileID: 7703252466648354535, guid: 1440a6eef67905b48a19f3df897dbfad, type: 3}
+  - {fileID: 1230299805313151752, guid: a671dbe60d4d41e4f8cc291444c87409, type: 3}
+  - {fileID: 7570133581521796315, guid: 974591a654962064a84b436ca856eb97, type: 3}
+  attackCards:
+  - {fileID: 97739388247969730, guid: 1beec0984fa009b47b3c381b0b063bf1, type: 3}
+  - {fileID: 5117623652607851241, guid: 83353b1f6533dd8458d77e190c453eab, type: 3}
+  - {fileID: 812860825116691849, guid: 0edfdbe469a40e845a02c9f7412b2616, type: 3}
+  - {fileID: 4959274913031452912, guid: 8446870a6cb346a4eb28a5ecc37da8a3, type: 3}
+  - {fileID: 9183316581725303380, guid: 0acf8d671362423438ac3ee56bff2698, type: 3}
+  - {fileID: 6488442039457113505, guid: 2ce1ed4c5bef89f4f94f3b7071b26cbb, type: 3}
+  - {fileID: 1542071622274720043, guid: 5d4b6f2c6c827054ab3836ad09b2fe6f, type: 3}
+  - {fileID: 4249738274298784799, guid: ec65bd7d417e2e04d8ef9c2793742b71, type: 3}
+  - {fileID: 5201935803380969274, guid: 74ff0e83b1c10c9439e56de3fe493fdf, type: 3}
+  dodgeCards:
+  - {fileID: 4359051637327367886, guid: d3095bd8daa76bd42921d49762ea34de, type: 3}
+  - {fileID: 5525902536236437964, guid: 9bdf60e0a2a3fed4c8bd52696fd8d91a, type: 3}
